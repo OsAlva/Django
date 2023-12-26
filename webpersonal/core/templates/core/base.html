@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block titile %}{% endblock %} | Mi Web Personal</title>
+</head>
+<body>
+    <h1>Mi web personal</h1>
+    <ul>
+        <li><a href="/">Portada</a></li>
+        <li><a href="/about/">Acerca de</a></li>
+        <li><a href="/portfolio/">Portafolio</a></li>
+        <li><a href="/contact/">Contacto</a></li>
+    </ul>
+    <!-- Contenido -->
+    <!-- template tag block  -->
+    <!-- sirve opara definir un bloque de contenido con un nombre en este caso es ´content' -->
+    {%  block content %}{% endblock %}
+    
+</body>
+</html>
